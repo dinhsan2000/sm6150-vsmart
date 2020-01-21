@@ -64,14 +64,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# GPS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0-impl-qti \
-    android.hardware.gnss@1.0-service-qti \
-    libgnss \
-    libgnsspps \
-    libsensorndkbridge
-
 # VNDK-SP
 PRODUCT_PACKAGES += \
     vndk-sp
