@@ -60,7 +60,7 @@ TARGET_USES_HWC2 := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Power
-TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
+#TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
