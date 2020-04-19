@@ -10,6 +10,9 @@ COMMON_PATH := device/vsmart/sm6150-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
@@ -49,9 +52,6 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
-
-# Charger
-BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # Display
 TARGET_USES_HWC2 := true
